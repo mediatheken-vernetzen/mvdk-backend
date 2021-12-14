@@ -15,10 +15,9 @@ services:
       - POSTGRES_HOST=localhost
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8080
     container_name: mvdk-backend-django
     volumes:
-      - .:/code
+      - ".:/code"
     ports:
       - "8080:8080"
     environment:
