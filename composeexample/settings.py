@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w_aspxg2s)z^&0-02)**0wdc@4h&0_xp4@5ue_6z=m!*rnlx(8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mediver.mediathek-tanz-theater.de']
 
 
 # Application definition
