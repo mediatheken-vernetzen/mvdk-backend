@@ -16,8 +16,6 @@ services:
   web:
     build: .
     container_name: mvdk-backend-django
-    volumes:
-      - ".:/code"
     command: python /code/manage.py runserver 0.0.0.0:8080
     ports:
       - "8080:8080"
